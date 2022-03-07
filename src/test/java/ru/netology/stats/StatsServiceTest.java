@@ -17,6 +17,7 @@ class StatsServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldcalculateAvg() {
         StatsService service = new StatsService();
@@ -28,6 +29,7 @@ class StatsServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldcalculateNamberMaxSales() {
         StatsService service = new StatsService();
@@ -39,6 +41,7 @@ class StatsServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldcalculateNamberMinSales() {
         StatsService service = new StatsService();
@@ -50,6 +53,7 @@ class StatsServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldcalculateCountMonthSalesLessAvg() {
         StatsService service = new StatsService();
@@ -61,6 +65,7 @@ class StatsServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldcalculateCountMonthSalesOverAvg() {
         StatsService service = new StatsService();
